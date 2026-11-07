@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+tests/test_x_reader.py
+x_intel/__init__.py
+x_intel/x_client.py
+x_intel/x_smoke.py
+x_intel/x_urls.py
+x_intel.egg-info/PKG-INFO
+x_intel.egg-info/SOURCES.txt
+x_intel.egg-info/dependency_links.txt
+x_intel.egg-info/entry_points.txt
+x_intel.egg-info/requires.txt
+x_intel.egg-info/top_level.txt

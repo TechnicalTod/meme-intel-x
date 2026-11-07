@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x-intel"
+version = "0.1.0"
+description = "Logged-in X reader. Returns posts and replies. Does not know what a mint is."
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.49",
+]
+
+[project.scripts]
+x-smoke = "x_intel.x_smoke:main"
+
+[tool.setuptools.packages.find]
+include = ["x_intel*"]

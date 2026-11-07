@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: x-intel
+Version: 0.1.0
+Summary: Logged-in X reader. Returns posts and replies. Does not know what a mint is.
+Requires-Python: >=3.11
+Requires-Dist: playwright>=1.49
